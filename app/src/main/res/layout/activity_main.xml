@@ -1,4 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -19,14 +20,17 @@
         android:textSize="32sp" />
 
     <Button
+        android:id="@+id/launch_chance_calculator"
         style="@style/main_button"
         android:text="@string/main_calculate_chances" />
 
     <Button
+        android:id="@+id/launch_ticket_creator"
         style="@style/main_button"
         android:text="@string/main_build_ticket" />
 
     <Button
+        android:id="@+id/launch_wheel_of_fortune"
         style="@style/main_button"
         android:text="@string/main_spin_wheel" />
 
