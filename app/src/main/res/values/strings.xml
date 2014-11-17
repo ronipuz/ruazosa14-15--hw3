@@ -21,5 +21,9 @@
     <string name="calculator_input_error">This number needs to be a positive integer!</string>
     <string name="calculator_result_error">Please check the data you entered!</string>
     <string name="calculator_result_error_minor_gt_major">You can\'t pick more than the total number of elements!</string>
+    <string name="creator_title">Become a millionaire!</string>
+    <string name="creator_subtitle">Win the lottery tomorrow by generating your lucky numbers! Just input the number of entries and the maximum entry! Finally, click the generate button and your numbers will appear below!</string>
+    <string name="creator_generate">Generate!</string>
+    <string name="creator_result_hint">The numbers will appear here</string>
 
 </resources>
