@@ -16,6 +16,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".WheelOfFortuneActivity"
+            android:label="@string/title_activity_wheel_of_fortune"
+            android:parentActivityName="hr.fer.ruazosa.hw3.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.fer.ruazosa.hw3.MainActivity" />
+        </activity>
+        <activity
+            android:name=".LottoChanceCalculatorActivity"
+            android:label="@string/title_activity_lotto_chance_calculator"
+            android:parentActivityName="hr.fer.ruazosa.hw3.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.fer.ruazosa.hw3.MainActivity" />
+        </activity>
+        <activity
+            android:name=".LottoTicketCreatorActivity"
+            android:label="@string/title_activity_lotto_ticket_creator"
+            android:parentActivityName="hr.fer.ruazosa.hw3.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hr.fer.ruazosa.hw3.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

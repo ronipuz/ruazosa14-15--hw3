@@ -4,5 +4,12 @@
     <string name="app_name">HW3</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="main_title">Choose your destiny</string>
+    <string name="main_calculate_chances">Calculate my chances</string>
+    <string name="main_build_ticket">Build me a ticket</string>
+    <string name="main_spin_wheel">Let me spin a wheel</string>
+    <string name="title_activity_wheel_of_fortune">Wheel Of Fortune</string>
+    <string name="title_activity_lotto_chance_calculator">Lotto Chance Calculator</string>
+    <string name="title_activity_lotto_ticket_creator">Lotto Ticket Creator</string>
 
 </resources>
