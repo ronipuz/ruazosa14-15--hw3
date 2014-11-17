@@ -11,5 +11,15 @@
     <string name="title_activity_wheel_of_fortune">Wheel Of Fortune</string>
     <string name="title_activity_lotto_chance_calculator">Lotto Chance Calculator</string>
     <string name="title_activity_lotto_ticket_creator">Lotto Ticket Creator</string>
+    <string name="calculator_subtitle">Find out what are your chances of winning the lottery! Simply enter the number of elements you can pick and the total number of elements and hit calculate!</string>
+    <string name="calculator_title">Unravel your chances!</string>
+    <string name="calculator_minor_hint">7</string>
+    <string name="calculator_input_divider">/</string>
+    <string name="calculator_input_major_hint">49</string>
+    <string name="calculator_submit_text">Calculate!</string>
+    <string name="calculator_result_hint">The result will be shown here</string>
+    <string name="calculator_input_error">This number needs to be a positive integer!</string>
+    <string name="calculator_result_error">Please check the data you entered!</string>
+    <string name="calculator_result_error_minor_gt_major">You can\'t pick more than the total number of elements!</string>
 
 </resources>
