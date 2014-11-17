@@ -11,6 +11,7 @@ import android.widget.TextView;
 import static android.test.TouchUtils.clickView;
 import static android.test.ViewAsserts.assertGroupContains;
 import static android.text.InputType.TYPE_CLASS_NUMBER;
+import static android.text.InputType.TYPE_NUMBER_FLAG_DECIMAL;
 import static org.assertj.android.api.Assertions.assertThat;
 
 public class LottoChanceCalculatorActivityTest extends ActivityInstrumentationTestCase2<LottoChanceCalculatorActivity> {
@@ -81,17 +82,17 @@ public class LottoChanceCalculatorActivityTest extends ActivityInstrumentationTe
 
     @MediumTest
     public void testInputMinor() {
-        assertThat(inputMinor).isVisible().hasHint(R.string.calculator_minor_hint).hasInputType(TYPE_CLASS_NUMBER).hasMaxLines(1);
+        assertThat(inputMinor).isVisible().hasHint(R.string.calculator_minor_hint).hasInputType(TYPE_CLASS_NUMBER | TYPE_NUMBER_FLAG_DECIMAL).hasMaxLines(1);
     }
 
     @MediumTest
     public void testInputDivider() {
-        assertThat(inputDivider).isVisible().hasText(R.string.calculator_input_divider).hasInputType(TYPE_CLASS_NUMBER).hasMaxLines(1);
+        assertThat(inputDivider).isVisible().hasText(R.string.calculator_input_divider);
     }
 
     @MediumTest
     public void testInputMajor() {
-        assertThat(inputMajor).isVisible().hasHint(R.string.calculator_input_major_hint);
+        assertThat(inputMajor).isVisible().hasHint(R.string.calculator_input_major_hint).hasInputType(TYPE_CLASS_NUMBER | TYPE_NUMBER_FLAG_DECIMAL).hasMaxLines(1);
     }
 
     @MediumTest
