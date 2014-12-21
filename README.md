@@ -1,5 +1,6 @@
 # RUAZOSA 14/15 - HW3
-[![Build Status](https://travis-ci.org/mrPjer/RUAZOSA-14-15---HW3.png)](https://travis-ci.org/mrPjer/RUAZOSA-14-15---HW3)
+
+[![Build Status](https://travis-ci.org/ronipuz/ruazosa14-15--hw3.svg?branch=master)](https://travis-ci.org/ronipuz/ruazosa14-15--hw3)
 
 This is the third homework for the Android development course [RUAZOSA at FER](https://www.fer.unizg.hr/predmet/ruazosa).
 
